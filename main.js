@@ -78,27 +78,27 @@ start.addEventListener('click',()=>{
         }, 3000);
     }
     if(botPosition.y>buttonPosition.y){
-        avisoBox2.style.display = 'block'
+        avisoBox2.style.display = 'flex'
     }
     //==================================
     if(botPosition1.y>emmoPosition1.y){
         bot[1].style.display = 'none'
         document.querySelector('.pontuacao').innerHTML = pontuacao+1
         setTimeout(() => {
-            bot[1].style.display = 'block'
+            bot[1].style.display = 'flex'
             
             
         }, 3000);
     }
     if(botPosition1.y>buttonPosition1.y){
-          avisoBox2.style.display = 'block'
+          avisoBox2.style.display = 'flex'
     }
     //==================================
     if(botPosition2.y>emmoPosition2.y){
         document.querySelector('.pontuacao').innerHTML = pontuacao+1
         bot[2].style.display = 'none'
         setTimeout(() => {
-            bot[2].style.display = 'block'
+            bot[2].style.display = 'flex'
             
         }, 3000);
     }

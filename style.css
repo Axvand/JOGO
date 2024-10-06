@@ -96,6 +96,10 @@ main {
     backdrop-filter: blur(9px);
     z-index: 1;
     display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: brown;
 
 }
 .pontuacao{
