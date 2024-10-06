@@ -111,10 +111,10 @@ start.addEventListener('click',()=>{
         bot[3].style.display = 'none'
         document.querySelector('.pontuacao').innerHTML = pontuacao+1
         setTimeout(() => {
-            bot[3].style.display = 'block'
+             
         }, 3000);
     }
-     if(botPosition3.y>buttonPosition3.y){
+     if(botPosition3.y>buttonPosition3.y){                     
         console.log('lose')
     }
     requestAnimationFrame(refresh);
