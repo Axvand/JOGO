@@ -91,7 +91,7 @@ start.addEventListener('click',()=>{
         }, 3000);
     }
     if(botPosition1.y>buttonPosition1.y){
-        console.log('lose')
+          avisoBox2.style.display = 'block'
     }
     //==================================
     if(botPosition2.y>emmoPosition2.y){
